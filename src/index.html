@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Forca</title>
+  </head>
+  <body>
+    <div class="infosPlayer" id="infosPlayer">
+      <h1>Jogo da Forca</h1>
+      <p class="palavra" id="palavra"></p>
+      <p id="letrasChutadas">Letras chutadas:</p>
+      <p>
+        Vidas restantes:
+        <span id="vidasRestantes"></span>
+      </p>
+      <h3>Chute uma letra:</h2>
+      <div class="tecladoVirtual">
+        <div id="tecladoVirtualTop"></div>
+        <div id="tecladoVirtualMid"></div>
+        <div id="tecladoVirtualBot"></div>
+      </div>
+      <div class="divChutarPlvInteira">
+        <button id="btnChutar" class="buttonTentativa">Chutar palavra inteira!</button>
+      </div>
+    </div>
+    <img class="bgImage" src="assets/bg-image-grassland-bottom.png" />
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "jogo_forca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "game": "open-cli src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "open-cli": "^7.0.1"
+  },
+  "author": "Marcianos",
+  "license": "ISC"
+}
